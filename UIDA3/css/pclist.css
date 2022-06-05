@@ -1,0 +1,156 @@
+* {
+	margin: 0;
+	padding: 0;
+	text-decoration: none;
+	box-sizing: border-box;
+}
+
+body {
+	background-color: rgb(0, 0, 0);
+}
+
+.header {
+	color: white;
+	background-color: #F15959;
+	line-height: 100%;
+	vertical-align: middle;
+	left: 0px;
+	top: 0px;
+}
+
+.footer {
+	color: white;
+	background-color: #F15959;
+	transform: translateY(235%);
+	/*move down*/
+	-ms-transform: translateY(235%);
+	-webkit-transform: translateY(235%);
+}
+
+.footer2 {
+	color: #F15959;
+	background-color: #FFFFFF;
+	transform: translateY(235%);
+	/*move down*/
+	-ms-transform: translateY(235%);
+	-webkit-transform: translateY(235%);
+}
+
+.btns {
+	background-color: transparent;
+	border: transparent;
+	cursor: pointer;
+}
+
+.sk_list ul li {
+	overflow: hidden;
+	float: left;
+	margin-top: 30px;
+	margin-right: 20px;
+	margin-left: 20px;
+	width: 270px;
+	height: 180px;
+	border: 1px solid transparent;
+}
+
+.sk_list ul li:hover {
+	border: 1px solid #c81523
+}
+
+.sk_list ul li:nth-child(4n) {
+	margin-right: 0px;
+}
+
+.card {
+	width: 267px;
+	background: white;
+	position: absolute;
+}
+
+.top-section {
+	height: 155px;
+	overflow: hidden;
+	background-color: #FFFFFF;
+	position: relative;
+}
+
+#image-container {
+	width: 270px;
+	height: 100px;
+}
+
+.price {
+	color: #000000;
+	font-size: 22px;
+	top: 220px;
+	left: 20px;
+	font-weight: 1000;
+}
+
+.name {
+	text-transform: uppercase;
+	font-size: 16px;
+	font-weight: 400;
+	color: #000000;
+}
+
+.bar {
+	width: 50px;
+	height: 10px;
+	border: 3px solid transparent;
+	margin: 6px;
+	transition: 0.4s;
+	left: 500px;
+	top:400px;
+}
+
+.bar:hover {
+	background: #F15959;
+}
+
+.section{
+	padding: 20px;
+	width: 1280px;
+	margin: 40px auto;
+}
+
+section ul{
+	display: flex;
+	margin-bottom: 10px;
+}
+
+section ul li{
+	list-style: none;
+	background: #eee;
+	padding: 8px 20px;
+	margin: 5px;
+	letter-spacing: 1px;
+	cursor: pointer;
+}
+
+section ul li.all{
+	background: #03a9f4;
+	color: #fff;
+}
+
+.navigation_n
+{
+  position: absolute;
+  bottom: -325px;
+  left: 50%;
+  transform: translateX(-50%);
+  display: flex;
+}
+.bar_n
+{
+  width: 50px;
+  height: 10px;
+  border: 3px solid #fff;
+  margin: 6px;
+  cursor: pointer;
+  transition: 0.4s;
+}
+.bar_n:hover
+{
+  background: #F15959;
+}

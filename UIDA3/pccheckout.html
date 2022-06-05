@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Checkout Page</title>
+    <link rel="stylesheet" href="../UIDA3/css/pccheckout.css">
+  </head>
+  <body>
+    <div style="font-size: 0;" class="header">
+      <span>&nbsp;</span><span><img src="../UIDA3/pictures/logo.png" alt" My logo" height="40"
+              width="80" /></span><span style="font-size: 23px;"><strong>&nbsp;&nbsp;&nbsp;&nbsp;<a href="../UIDA3/pchome.html" style="color: rgb(255, 255, 255);">
+              Board Game</strong></a></span><span style="font-size: 23px;"><strong>&nbsp;&nbsp;&nbsp;&nbsp;<a href="../UIDA3/pchome.html" style="color: rgb(255, 255, 255);">Card
+              Game</strong></a></span><span style="font-size: 23px;"><strong>&nbsp;&nbsp;&nbsp;&nbsp;<a href="../UIDA3/pchome.html" style="color: rgb(255, 255, 255);">
+              Hobby Game</strong></a></span><span style="font-size: 23px;"><strong>&nbsp;&nbsp;&nbsp;&nbsp;<a href="../UIDA3/pchome.html" style="color: rgb(255, 255, 255);">Gift
+              Card</strong></a></span><span style="font-size: 23px;"><strong>&nbsp;&nbsp;&nbsp;&nbsp;<a href="../UIDA3/pchome.html" style="color: rgb(255, 255, 255);">
+              Explore Games</strong></a></span><span
+          style="font-size: 23px;"><strong>&nbsp;&nbsp;&nbsp;&nbsp;<a href="#" style="color: rgb(255, 255, 255);">>></a>&nbsp;&nbsp;</strong></span><span>
+          <button class="btns"><img src="../UIDA3/pictures/search.png" alt"Search box" height="20" width="22" /></button></span><span><input type="text" name="searchbox" maxlength="15" height="15">
+      </span>
+    </div>
+    <!--header-->
+    <a href="../UIDA3/pccart.html"><h1>&lt;&lt;&nbsp;&nbsp;Cart</h1></a><!--information-->
+    <section>
+        <form action="">
+            <div class="form contact">
+                <h2>Your Information</h2>
+                <label for="email">Email</label><br>
+                <div class="icon">
+                    <input class="inputs" type="email" id="email" name="email" placeholder="Enter your email.." required>
+                    <i class="fas fa-envelope"></i><br>
+                </div>
+                <label for="phone">Phone number</label><br>
+                <div class="icon">
+                    <input class="inputs" type="tel" id="phone" name="phone" placeholder="Enter your phone.." required>
+                    <i class="fas fa-phone-alt"></i><br>
+                </div>
+            </div>
+            <div class="form">
+                <h2>Your address</h2>
+                <label for="name">Full name</label><br>
+                <div class="icon">
+                    <input class="inputs" type="text" id="name" name="name" placeholder="Enter your Full name..." required>
+                    <i class="fas fa-user"></i><br>
+                </div>
+                <label for="adress">Adress</label><br>
+                <div class="icon">
+                    <input class="inputs" type="text" name="adress" id="adress" placeholder="Enter your address..." required>
+                    <i class="fas fa-home"></i><br>
+                </div>
+                <label for="city">City</label><br>
+                <div class="icon">
+                    <input class="inputs" type="text" name="city" id="city" placeholder="Enter your city..." required>
+                    <i class="fas fa-city"></i>
+                </div>
+            </div>
+            <div class="form country-post">
+                <div class="country">
+                    <label for="country">Country</label><br>
+                    <div class="icon">
+                        <select name="country" id="country">
+                            <option value="China" selected>China</option>
+                            <option value="Australia" selected>Australia</option>
+                            <option value="USA" selected>USA</option>
+                            <option value="Canada" selected>Canada</option>
+                            <option value="UK" selected>UK</option>
+                        </select>
+                        <i class="fas fa-globe-europe"></i>
+                    </div>
+
+                </div>
+                <div>
+                    <label for="post-code">Post Code</label><br>
+                    <div class="icon">
+                        <input class="inputs" type="number" name="post-code" id="post-code" placeholder="Enter your postal code...">
+                        <i class="fas fa-mail-bulk"></i>
+                    </div>
+                </div>
+            </div>
+            <div class="checkbox">
+                <input class="inputs" type="checkbox" id="check"><p style="display:inline; color:  #828282; "> I AGREE WITH THE PRIVACY POLICY & TERMS OF SERVICE.</p>
+            </div>
+            <button class="btn" id="continue" value="continue" onclick="checks()">Continue</button>
+        </form>
+
+
+        <div class="shopping"><!--shopping list-->
+            <div class="content">
+                <div class="img">
+                    <img src="../UIDA3/pictures/cart/1.jpg" width="98px" height="110px">
+                </div>
+                <div class="price-tag">
+                    <h4>Cash</h4>
+                    <p id="price"><span
+                            style="color: #F2994A; font-weight: 600;">$25.00</span></p>
+
+                    <div class="amount">
+                        <div><i class="fas fa-minus"></i></div>
+                        <div>
+                            <p style="font-size: 20px;"><strong>1</strong></p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="content"><!--product2-->
+                <div class="img">
+                    <img src="../UIDA3/pictures/cart/2.jpg" width="98px" height="110px">
+                </div>
+                <div class="price-tag">
+                    <h4>Die Macher</h4>
+                    <p id="price"><span
+                            style="color: #F2994A; font-weight: 600;">$69.99</span></del>
+                    </p>
+                    <div class="amount">
+                        <div>
+                            <p style="font-size: 20px;"><strong>1</strong></p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="freight">
+                <p>Freight</p>
+                <p>$10</p>
+            </div>
+            <div class="total">
+                <p>Total</p>
+                <p>$104.99</p>
+            </div>
+        </div>
+    </section>
+
+    <table class="pay" align="center">
+        <tr>
+            <td colspan="4"><a href="#"><img src="../UIDA3/pictures/visa.png" alt"visa" height="100"
+                    width="100" /></a></td>
+            <td>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</td>
+            <td colspan="4"><a href="#"><img src="../UIDA3/pictures/amex-icon-6902.png" alt"amex" height="100"
+                    width="100" /></a></td>
+        </tr>
+    </table>
+    <div class="footer" style="font-size: 0;">
+      <span style="font-size: 20px;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+      <a href="#" style="color: rgb(255, 255, 255);">Follow Us</a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span><span><img
+              src="../UIDA3/pictures/contact.png" alt" My contacts" height="20" width="80" /></span>
+      <span style="font-size: 20px;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href="#" style="color: rgb(255, 255, 255);">About Us</a></span><span
+          style="font-size: 20px;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href="#" style="color: rgb(255, 255, 255);">
+          News</a></span><span
+          style="font-size: 20px;">&nbsp;&nbsp;&nbsp;&nbsp;<a href="#" style="color: rgb(255, 255, 255);">F&Q</a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+          &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span>
+      <span style="font-size: 25px;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+          &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+          &nbsp;&nbsp;</span><a href="#" style="color: rgb(255, 255, 255);"><span style="font-size: 25px;" class="footer2">&nbsp;♡&nbsp;</span></a>
+          <a href="../UIDA3/pccart.html" style="color: rgb(255, 255, 255);"><span style="font-size: 25px;" class="footer2">&nbsp;&nbsp;&nbsp;<strong>Cart</strong>
+          &nbsp;&nbsp;&nbsp;&nbsp;</span></a><span class="footer2" style="font-size: 25px;"><a href="#" style="color: rgb(255, 255, 255);"><img
+          src="../UIDA3/pictures/user.png" alt"user" height="18" width="15" /></a></span>
+      <span class="footer2" style="font-size: 25px;">&nbsp;</span>
+  </div>
+  <!--footer-->
+  </body>
+  <script>
+  function checks(){
+    var btn=confirm("Do you want to submit the order?")
+    document.write(btn);
+  }</script>
+</html>

@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Product Page</title>
+    <link rel="stylesheet" href="../UIDA3/css/pcproduct.css">
+  </head>
+  <body>
+    <div style="font-size: 0;" class="header">
+        <span>&nbsp;</span><span><img src="../UIDA3/pictures/logo.png" alt" My logo" height="40"
+                width="80" /></span><span style="font-size: 23px;"><strong>&nbsp;&nbsp;&nbsp;&nbsp;<a href="../UIDA3/pchome.html" style="color: rgb(255, 255, 255);">
+                Board Game</strong></a></span><span style="font-size: 23px;"><strong>&nbsp;&nbsp;&nbsp;&nbsp;<a href="../UIDA3/pchome.html" style="color: rgb(255, 255, 255);">Card
+                Game</strong></a></span><span style="font-size: 23px;"><strong>&nbsp;&nbsp;&nbsp;&nbsp;<a href="../UIDA3/pchome.html" style="color: rgb(255, 255, 255);">
+                Hobby Game</strong></a></span><span style="font-size: 23px;"><strong>&nbsp;&nbsp;&nbsp;&nbsp;<a href="../UIDA3/pchome.html" style="color: rgb(255, 255, 255);">Gift
+                Card</strong></a></span><span style="font-size: 23px;"><strong>&nbsp;&nbsp;&nbsp;&nbsp;<a href="../UIDA3/pchome.html" style="color: rgb(255, 255, 255);">
+                Explore Games</strong></a></span><span
+            style="font-size: 23px;"><strong>&nbsp;&nbsp;&nbsp;&nbsp;<a href="#" style="color: rgb(255, 255, 255);">>></a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</strong></span><span>
+            <button class="btns"><img src="../UIDA3/pictures/search.png" alt"Search box" height="20" width="22" /></button></span><span><input
+                type="text" name="searchbox" maxlength="15" height="15">
+        </span>
+      </div>
+      <!--header-->
+    <div class="'main">
+        <div class="sk_list">
+            <div class="card itemBox new"><!--product cards-->
+                <a href="#" ><img id="shell" src="../UIDA3/pictures/product/p1.jpg" alt="" width="150px" height="150px"></a>
+                <div class="three"><!--three pics-->
+                    <img onclick="change_img(this)" src="../UIDA3/pictures/product/p1.jpg" alt="" width="360px" height="360px">
+                    <img onclick="change_img(this)" src="../UIDA3/pictures/product/p2.png" alt="" width="360px" height="360px">
+                    <img onclick="change_img(this)" src="../UIDA3/pictures/product/p3.png" alt="" width="360px" height="360px">
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="price"><strong>Alluvium</strong></div>
+    <div class="name"><strong>$30.00</strong></div>
+    <div class="info">FUDACOMA GAMES</div>
+    <div class="info2">There is an unexplored land appearing at the end of the ice age. 
+    Players are the heads of five fantastical races setting out to cultivate this mysterious land. 
+    Though pioneering this land is a collaborative effort, the other races are mischievous and may be disturbing your progress while pretending to cooperate.</div>
+    <a class="btn" href="../UIDA3/pccart.html">Add to Cart</a>
+
+    <div class="b_list"><a href="../UIDA3/pclist.html" style="color: rgb(255, 255, 255);">List&gt;&gt;</a></div>
+
+    <div class="footer" style="font-size: 0;">
+        <span style="font-size: 20px;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+        <a href="#" style="color: rgb(255, 255, 255);">Follow Us</a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span><span><img
+                src="../UIDA3/pictures/contact.png" alt" My contacts" height="20" width="80" /></span>
+        <span style="font-size: 20px;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href="#" style="color: rgb(255, 255, 255);">About Us</a></span><span
+            style="font-size: 20px;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href="#" style="color: rgb(255, 255, 255);">
+            News</a></span><span
+            style="font-size: 20px;">&nbsp;&nbsp;&nbsp;&nbsp;<a href="#" style="color: rgb(255, 255, 255);">F&Q</a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span>
+        <span style="font-size: 25px;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+            &nbsp;&nbsp;</span><a href="#" style="color: rgb(255, 255, 255);"><span style="font-size: 25px;" class="footer2">&nbsp;♡&nbsp;</span></a>
+            <a href="../UIDA3/pccart.html" style="color: rgb(255, 255, 255);"><span style="font-size: 25px;" class="footer2">&nbsp;&nbsp;&nbsp;<strong>Cart</strong>
+            &nbsp;&nbsp;&nbsp;&nbsp;</span></a><span class="footer2" style="font-size: 25px;"><a href="#" style="color: rgb(255, 255, 255);"><img
+            src="../UIDA3/pictures/user.png" alt"user" height="18" width="15" /></a></span>
+        <span class="footer2" style="font-size: 25px;">&nbsp;</span>
+    </div>
+    <!--footer-->
+    <script type="text/javascript">
+        var shell=document.getElementById("shell");
+        function change_img(image){
+          shell.src=image.src;
+        }
+    </script>
+  </body>
+</html>

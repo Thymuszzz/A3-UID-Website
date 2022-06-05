@@ -1,0 +1,336 @@
+body,ol,ul,h1,h2,h3,h4,h5,h6,p,th,td,dl,dd,form,fieldset,legend,input,textarea,select{
+  margin:0;padding:0;
+}
+body{
+  font:12px "Arial","Arial Narrow",HELVETICA;background-color: #000000;
+}
+a{
+  color:#172c45;text-decoration:none
+} 
+a:hover{
+  color:#cd0200;text-decoration:none
+} 
+em,i{
+  font-style:normal}   li{list-style:none
+}
+img{
+  border:0;vertical-align:middle
+} 
+table{
+  border-collapse:collapse;border-spacing:0
+}
+p{
+  word-wrap:break-word
+}
+.t{
+   width: 100%; 
+  }
+.c{
+  width: 1190px;margin: 0 auto;
+}
+.l{
+  float: left;
+}
+.r{
+  float: right;
+}
+  
+  .header {
+    color: white;
+    background-color: #F15959;
+    line-height: 100%;
+    vertical-align: middle;
+    left: 0px;
+    top: 0px;
+  }
+  
+  .footer {
+    color: white;
+    background-color: #F15959;
+    transform: translateY(275%);
+    /*move down*/
+    -ms-transform: translateY(275%);
+    -webkit-transform: translateY(275%);
+  }
+  
+  .footer2 {
+    color: #F15959;
+    background-color: #FFFFFF;
+    transform: translateY(255%);
+    /*move down*/
+    -ms-transform: translateY(255%);
+    -webkit-transform: translateY(255%);
+  }
+  
+  .btns {
+    background-color: transparent;
+    border: transparent;
+    cursor: pointer;
+  }
+  
+  body a{/*info of product*/
+    color: #000;
+  }
+  
+  .checkoutProduct{
+    margin-top: 40px;
+    position: relative;
+  }
+  .checkoutTable{
+    /*height: 651px;*/
+    background-color: rgb(255, 255, 255);
+    position: relative;
+  }
+  .checkBox{
+    display: block;
+    position: absolute;
+    left: 20px;
+    top: 16px;
+    width: 14px;
+    height: 14px;
+    cursor: pointer;
+    background-position: -28px 0;
+    background-repeat: no-repeat;
+  }
+  .checkIcon{
+    background-image: url(../pictures/cart/shoppingCar_input_checkbox.png);
+  }
+  .checkoutTableHeader{/*line*/
+    height: 47px;
+    line-height: 47px;
+    padding: 0 40px 0 44px;
+    box-sizing: border-box;
+    border-bottom: 1px solid rgb(0, 0, 0);
+  }
+  .checkoutTableHeader li{/*headers*/
+    display: inline-block;
+    color: rgb(0, 0, 0);
+  }
+  .checkoutTableHeader li:nth-child(1){
+    width: 120px;
+  }
+  .checkoutTableHeader li:nth-child(2){
+    width: 464px;
+  }
+  .checkoutTableHeader li:nth-child(3){
+    width: 150px;
+  }
+  .checkoutTableHeader li:nth-child(4){
+    width: 160px;
+    text-indent: 15px;
+  }
+  .checkoutTableHeader li:nth-child(5){
+    width: 144px;
+  }
+  .checkoutTableHeader li:nth-child(6){
+    min-width: 50px;
+    text-indent: 5px;
+    float: right;
+  }
+  .checkoutProductBody{/*bottom line*/
+    border-bottom: 1px solid #eee;
+  }
+  .productBodyItem{
+    min-height: 150px;
+      position: relative;
+      padding: 0 40px 0 20px;
+      box-sizing: border-box;
+  }
+  .productBodyItemContent{
+    width: 1095px;
+      height: 150px;
+      margin-left: 35px;
+      padding-top: 30px;
+      box-sizing: border-box;
+      position: relative;
+      cursor: pointer;
+  } 
+  .productBodyItemContent:hover{/*selected color*/
+    background-color: #f2f2f2;
+  } 
+  .productBodyItemContent .checkBox{
+    top: 50%;
+    left: -35px;
+    margin-top: -7px;
+    position: absolute;
+  }
+  .checktoggle{
+    background-image: url(..//pictures/cart/shoppingCar_input_checkbox.png);
+    background-position: -42px 0;
+  }
+  .productBodyItemContent .itemImg{
+    width: 90px;
+      height: 90px;
+      padding: 8px;
+      box-sizing: border-box;
+      margin-right: 20px;
+      display: inline-block;
+      position: relative;
+  }
+  .productBodyItemContent img{
+    width: 74px;
+    height: 74px;
+    display: block;
+  }
+  .itemInfo{
+    width: 464px;
+    color: #000;
+    line-height: 12px;
+    display: inline-block;
+    vertical-align: top;
+  }
+  .itemInfo h5{
+    font-size: 12px;
+    margin-bottom: 10px;
+    cursor: pointer;
+    margin-bottom: 10px;
+  }
+  .itemInfo span{
+    display: inline-block;
+      padding-right: 12px;
+      padding-bottom: 3px;
+      position: relative;
+      color: #666;
+      margin: 0 0 10px;
+      cursor: pointer;
+      height: 16px;
+      margin-top: 10px;
+  }
+  .itemInfoUnion1{
+    width: 150px;
+    vertical-align: top;
+    display: inline-block;
+  }
+  .itemInfoUnion2{
+    width: 176px;
+    vertical-align: top;
+    display: inline-block;
+    text-align: center;
+    margin-left: -12px;
+  }
+  .itemInfoUnion2Module{
+    width: 85px;
+    margin: 0;
+    height: 23px;
+  }
+  .itemInfoUnion2ModuleI{
+    width: 21px;
+      height: 21px;
+      display: inline-block;
+      line-height: 21px;
+      text-align: center;
+      border: 1px solid #eee;
+      color: #474747;
+      cursor: pointer;
+      background-color: #fff;
+  }
+  .itemInfoUnion2Module .itemInfoUnion2ModuleI1{
+    color: #bdbdbd;
+  }
+  .itemInfoUnion2ModuleNum{
+    width: 37px;
+      height: 21px;
+      display: inline-block;
+      border-top: 1px solid #eee;
+      border-bottom: 1px solid #eee;
+      border-left: 0;
+      border-right: 0;
+      text-align: center;
+      color: #000;
+      line-height: 21px;
+  }
+  .itemInfoUnion3{
+    width: 144px;
+    vertical-align: top;
+    display: inline-block;
+  }
+  .itemInfoUnion4{
+    width: 45px;
+    vertical-align: top;
+    display: inline-block;
+  }
+  .itemInfoUnion4 .delete{
+    width: 19px;
+    height: 19px;
+    display: block;
+    cursor: pointer;
+    background-image: url(../pictures/cart/shoppingBag_checkout_icon.png);
+  }
+  
+  #checkSubmit{
+    margin-top: 50px;
+    position: relative;
+  }
+  .checkSubmitInfo{
+    height: 60px;
+    background-color: #fff;
+  }
+  .checkSubmitInfoBooking{
+    width: 1190px;
+      height: 60px;
+      line-height: 60px;
+      background-color: #fff;
+      z-index: 1000;
+      position: relative;
+  }
+  .checkSubmitInfoLeft{
+    /*width: 347px;*/
+    height: 20px;
+      line-height: 20px;
+      display: inline-block;
+      padding: 20px 0;
+      margin: 0 auto;
+  }
+  .checkSubmitInfoLeft .checkBox{
+    top: 23px;
+    left: 0;
+    margin: 1px 20px 0;
+    display: inline-block;
+  }
+  .allClick{
+    margin-left: 53px;
+    margin-right: 30px;
+    display: inline-block;
+  }
+  .checkSubmitInfoLeft a{
+    color: #474747;
+    line-height: 20px;
+    margin-right: 30px;
+    cursor: pointer;
+  }
+  .allDelete{
+    display: inline-block;
+  }
+  
+  .checkSubmitInfoRight{
+    /*width: 385px;*/
+    color: #858585;
+  }
+  .checkSubmitInfoRight ul{
+    height: 60px;
+      float: left;
+      padding: 10px 0;
+      box-sizing: border-box;
+      /*background: red;*/
+  }
+  .checkSubmitInfoRight ul li{
+    text-align: right;
+    line-height: 16px;
+  }
+  .checkSubmitInfoRight ul li:nth-child(1){
+    padding-bottom: 4px;
+  }
+  
+  .rightSubmit{
+    width: 140px;
+      height: 60px;
+      background-color: #e00;
+      text-align: center;
+      line-height: 60px;
+      font-size: 20px;
+      color: #fff;
+      margin-left: 30px;
+      cursor: pointer;
+  }
+
+
